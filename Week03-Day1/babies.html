@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="friendsList">
+<head>
+	<title>First Angular App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body ng-controller="mainCtrl">
+	<input ng-model="newFriendInput">
+	<button ng-click="addFriend(newFriendInput)">Add Friend</button>
+	<div ng-repeat="friend in friendsList">
+		<p ng-bind="friend"></p>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="mainCtrl.js"></script>
+
+</body>
+</html>

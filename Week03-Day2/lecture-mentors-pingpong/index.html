@@ -1,0 +1,29 @@
+<html>
+	<body ng-app="SampleApp" ng-controller="MainCtrl">
+		<h4>Create New Mentor</h4>
+		<input ng-model="newMentor.name" />
+		<button ng-click="createMentor()">Create Mentor</button>
+		<div ng-repeat="mentor in mentors">
+			{{mentor.name}}
+		</div>
+		<h4>Ping Pong</h4>
+		<ul>
+			<li ng-repeat="game in pingpong_games">Player 1: {{game.score_p1}} Player 2: {{game.score_p2}}</li>
+		</ul>
+		Player 1: <input ng-model="newGame.score_p1" />
+		Player 2: <input ng-model="newGame.score_p2" />
+		<button ng-click="saveGame()">Save Game</button>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/main-ctrl.js"></script>
+	<script type="text/javascript" src="js/mentor-service.js"></script>
+	<script type="text/javascript" src="js/pingpong-service.js"></script>
+	</body>
+</html>
+
+<!--
+ng-app
+ng-controller
+$scope
+-->

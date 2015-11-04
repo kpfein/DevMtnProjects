@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+}
+
+@media and (min-width: 775px) {
+	#search {
+		visibility: hidden;
+	}
+}
+
+
+
+.main-container {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+
+#logo {
+	float: left;
+}
+
+#center-thingy {
+	float: left;
+	position: relative;
+	left: 40%;
+
+}
+
+#sign-in-button {
+	float: right;
+	position: relative;
+	right: 2%;
+	border: 2px solid green;
+	border-radius: 25px;
+}
+
+#search-bar {
+	float: right;
+	position: relative;
+	right: 5%;
+	border: 2px solid black;
+	border-radius: 25px;
+}
+
+/*#search {
+	display: none;
+}*/
+
+.content {
+	clear: both;
+	width: 60%;
+	margin: 0 auto;
+}

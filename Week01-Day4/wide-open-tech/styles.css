@@ -1,0 +1,224 @@
+body {
+	margin: 0;
+}
+
+@media screen and (max-width: 875px) {
+	.box-container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.symbol-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lightbulb, .arrow, .power {
+	margin: 2 auto;
+}
+
+}
+
+.main-container {
+	max-width: 100%;
+}
+/*Workshop*/
+.workshop {
+	background: url("workshop.jpg") center bottom;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 10;
+}
+
+.header {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+
+.nav {
+	width: 70%;
+	float: right;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-links {
+	margin-top: 10;
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.text-container {
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25;
+}
+
+.text {
+	color: white;
+	text-align: center;
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+	height: 175px;
+	width: 175px;
+}
+
+#box1 {
+	background-color: red;
+}
+
+#box2 {
+	background-color: orange;
+}
+
+#box3 {
+	background-color: yellow;
+}
+
+#box4 {
+	background-color: green;
+}
+
+#box5 {
+	background-color: blue;
+}
+
+/*How it works*/
+.how-it-works {
+	background-color: gray;
+	background-size: cover;
+	width: 100%;
+	padding: 25 0;
+}
+
+.works-text {
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	font-family: sans-serif;
+	width: 80%;
+}
+
+#works {
+	color: green;
+}
+
+.pencils {
+	display: block;
+	width: 15%;
+	margin: 25 auto;
+}
+
+/*Symbol Area*/
+.symbol-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 25 0;
+}
+
+.lightbulb, .arrow, .power {
+	height: 300px;
+	width: 300px;
+}
+
+.lightbulb {
+	background-color: yellow;
+}
+
+.arrow {
+	background-color: red;
+	border-left: 1px solid black;
+}
+
+.power {
+	background-color: green;
+	border-left: 1px solid black;
+}
+
+/*How Can We Help*/
+.how-can-we-help {
+	background-color: gray;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*Let's Get Started*/
+.lets-get-started {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*Companies*/
+.companies {
+	background-color: green;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*Locations*/
+.locations {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.wilmington {
+	background: url("pier.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.asheville {
+	background: url("asheville.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+/*Sign Up*/
+.sign-up {
+	background-color: teal;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/*Footer*/
+.footer {
+	background-color: teal;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}

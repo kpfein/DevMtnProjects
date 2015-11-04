@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+
+#apple, #google{
+	color: white;
+}
+
+#apple {
+	float: left;
+	position: relative;
+	left: 20px;
+}
+
+#google {
+	float: left;
+	position: relative;
+	left: 50px;
+}
+
+.content {
+	margin: 0;
+	width: 100%;
+	height: 700px;
+	background-color: white;
+	overflow: auto;
+}
+
+.left-column {
+	width: 45%;
+	height:100%;
+	float: left;
+	padding-top: 10;
+	position: relative;
+	left: 20;
+}
+
+.right-column {
+	width: 45%;
+	height: 100%;
+	float: right;
+	padding-top: 20;
+	position: relative;
+	right: 20;
+}
+
+.box {
+	width: 100%;
+	height: 200px;
+	background-color: gray;
+}
+
+.text {
+	width: 100%;
+}
+
+.footer {
+	margin: 0;
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
